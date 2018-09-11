@@ -65,7 +65,12 @@ public class Email {
 	}
 	
 	public int getMailboxCapacity() {
-		return mailboxCapacity;
+		int i = 10 * 8;
+		int j = 100;
+		if(i != j) {
+			System.out.println("Succes!!");
+		}
+		return j;
 	}
 	
 	// Set/Get the alternate email
